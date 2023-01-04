@@ -7,7 +7,7 @@ const BirthdayCard = () => {
                 <img src={celebrate} alt="celebrate" />
             </div>
             <div className="col-span-3">
-                <h2 className="text-sm font-medium">Bithday Today</h2>
+                <h2 className="text-sm font-medium">Birthday Today</h2>
                 <div className="text-red-400 font-semibold">
                     <p>Abeda Sultana,</p>
                     <p>Papri Akter</p>
