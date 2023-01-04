@@ -1,0 +1,7 @@
+import React from 'react';
+
+const Recruitments = () => {
+    return <div>Recruitments</div>;
+};
+
+export default Recruitments;
