@@ -7,8 +7,8 @@ import LeaveCard from '../HR/LeaveCard';
 import VacationCard from '../Employee/VacationCard';
 
 const RightSideNav = () => {
-    const hr = false;
-    const employee = true;
+    const hr = true;
+    const employee = false;
     return (
         <div className="space-y-3">
             {employee && <VacationCard />}

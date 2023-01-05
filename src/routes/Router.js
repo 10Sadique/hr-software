@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
+import AddEmployee from '../components/HR/AddEmployee';
 import DashboardLayout from '../layout/DashboardLayout';
 import Dashboard from '../pages/Dashboard';
 import Accounts from '../pages/links/Accounts';
@@ -28,6 +29,7 @@ export const router = createBrowserRouter([
             { path: '/reports', element: <Reports /> },
             { path: '/settings', element: <Settings /> },
             { path: '/myprofile', element: <EmployeeProfile /> },
+            { path: '/employees/add', element: <AddEmployee /> },
         ],
     },
 ]);

@@ -6,8 +6,8 @@ import DailyAttendence from './HR/DailyAttendence';
 import HrRequestCard from './HR/HrRequestCard';
 
 const MainContent = () => {
-    const hr = false;
-    const employee = true;
+    const hr = true;
+    const employee = false;
     return (
         <div className="space-y-4">
             {/* Greetings */}

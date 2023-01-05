@@ -11,8 +11,8 @@ import { FiSettings } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
 
 const LeftSideNav = () => {
-    const hr = false;
-    const employee = true;
+    const hr = true;
+    const employee = false;
     const activeStyle =
         'flex items-center pl-8 py-2 gap-5 bg-gradient-to-r from-blue-200 to-transparent';
     const normalStyle = 'flex items-center pl-8 py-2 gap-5';
